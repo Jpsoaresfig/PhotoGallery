@@ -1,0 +1,133 @@
+:root {
+    --background-color: #F6F6F6;
+    --primary-color: #1B3B48;
+    --white: #fff;
+    --grey: #E7E7E7;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+   
+   }
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    
+}
+
+
+button {
+    cursor: pointer;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.header{
+    background-color: #1B3B48;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+   
+    
+}
+.header header{
+padding: 0.1rem 0;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 600;
+color: black;
+font-style: italic;
+
+}
+
+#lugar-imagens{ /*posicao cartas*/
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+    min-height: 80vh;;
+   
+    
+    
+
+}
+img { /*efeito da sombra azul */
+    box-shadow: 0px 0px 0px rgba(7, 0, 145, 0.571); /* Define a sombra inicialmente sem tamanho */
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out; /* Define a transição de transform e box-shadow */
+  }
+  
+  img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
+    box-shadow: 10px 10px 30px rgba(4, 28, 246, 0.448); /* Define uma sombra com tamanho ao passar o mouse */
+  }
+  
+
+
+
+.buttonGroup{/*parte dos botoes*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    
+    
+}
+.buttonGroup button{
+    padding: 0.5rem 1rem;
+    border: 0;
+    background-color:var(--primary-color);
+    color: #ffffff;
+    border-radius: 10rem;
+   
+}
+.buttonGroup button:hover{
+    transform: scale(1.4); /* aumenta o tamanho do botão (bom decorar) */
+}
+
+.form-select{
+   margin-top: 1rem;
+   width: 25%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30%;
+   color: black;
+
+}
+.selecnumber{
+    width: 100%;
+    border-radius: 60%;
+    border-top-width: 1%;
+
+}
+
+
+
