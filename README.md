@@ -1,3 +1,2 @@
 # PhotoGallery
-Uma página que puxa uma API e exibe várias fotos, com botões de avançar e retroceder, e seleção para escolher quantas fotos devem ser exibidas na página.
-tecnologias usadas: Javascript, html,css, bootstrap e apis 
+A webpage that fetches an API and displays multiple photos, with forward and backward buttons, and an option to choose how many photos should be displayed on the page. Technologies used: Javascript, HTML, CSS, Bootstrap, and APIs.
